@@ -1,9 +1,7 @@
+import Hero from "../components/hero/Hero";
+
 function Home() {
-  return (
-    <section>
-      <h1>GeoVision AI Portal</h1>
-    </section>
-  );
+  return <Hero />;
 }
 
 export default Home;
